@@ -1,5 +1,8 @@
-remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
+theme: jekyll-theme-midnight
 
+plugins:
+  - jekyll-sitemap
 
 # title: Midnight theme
 # description: Midnight is a theme for GitHub Pages.
