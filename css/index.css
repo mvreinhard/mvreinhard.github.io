@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.div1{
+    background-size: cover; 
+    height:750px; 
+    padding-top:5px; 
+    text-align: center;
+}
+
+
+.header{
+    /* min-height: 50vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.header_home{
+    /* min-height: 50vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.MSU_logo{
+    background-image: url(https://static.wixstatic.com/media/2391f6_f729a0d21a9149d1a11be068e0bf1f6c~mv2_d_2000_2000_s_2.jpg/v1/crop/x_0,y_569,w_2000,h_1431/fill/w_637,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/glossy-white-background_1075574.jpg);
+
+}
+
+.h1{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+    margin: 50px 0 50px;
+}
+
+#info_box
+{
+	float: left;
+	text-align: left;
+	font-family: "Slabo 27px", serif;
+	font-size: 18px;
+	padding: 26px 20px;
+	line-height: 1.4;
+	color: #ffffff;
+}
+
+.p1{
+    text-align: center;
+    margin: 50px 0 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.nav-links{
+    flex:1;
+    text-align: right;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 6px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 350px;
+    height: 90px;
+}
+
+nav .fa{
+    display: none;
+}
+
+
+.welcome_section{
+    text-align: center;
+    display: flex; /* Enables Flexbox layout */
+    flex-direction: column; /* Ensures elements are stacked vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start; /* Aligns content at the top */
+    padding: 20px;
+    background-color:#ffffff;
+}
+
+.h2_welcome{
+    /* margin: 50px; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 80px;
+
+}
+
+.p_welcome{
+    /* margin: 50px 0 50px; */
+    font-size: 35px;
+    line-height: 1.5;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.p_welcome2{
+    font-size: 25px;
+    line-height: 1.5;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.david_website{
+    font-size: 20px; 
+    color:#000000; 
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
+
+#footer
+{
+	margin-top: 100px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+}
+a.foot_link
+{
+	text-decoration: none;
+	color: #000;
+}

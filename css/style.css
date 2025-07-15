@@ -1,0 +1,152 @@
+/*
+Welcome page
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.div1{
+    background-size: cover; 
+    height:750px; 
+    padding-top:5px; 
+    text-align: center;
+}
+
+.div1_research{
+    background-size: cover; 
+    height:350px; 
+    /* padding-top:5px;  */
+    text-align: center;
+}
+
+.div1_CV{
+    background-size: cover; 
+    height:350px; 
+    /* padding-top:5px;  */
+    text-align: center;
+}
+
+.div1_aboutme{
+    background-size: cover;
+    height: 350px; 
+    text-align: center;
+}
+
+
+.header{
+    /* min-height: 50vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header_home{
+    /* min-height: 50vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.h1{
+    font-size: 100px;
+    color: #000000;
+    margin: 50px 0 50px;
+}
+
+
+.nav-links{
+    flex:1;
+    text-align: right;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 6px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 350px;
+    height: 90px;
+}
+
+nav .fa{
+    display: none;
+}
+
+
+.welcome_section{
+    text-align: center;
+    display: flex; /* Enables Flexbox layout */
+    flex-direction: column; /* Ensures elements are stacked vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start; /* Aligns content at the top */
+    padding: 20px;
+    background-color:#ffffff;
+}
+
+.h2_welcome{
+    /* margin: 50px; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 100px;
+
+}
+
+.p_welcome{
+    /* margin: 50px 0 50px; */
+    font-size: 35px;
+    line-height: 1.5;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.p_welcome2{
+    font-size: 35px;
+    line-height: 1.5;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.david_website{
+    font-size: 20px; 
+    color:#000000; 
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
