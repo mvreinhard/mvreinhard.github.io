@@ -58,6 +58,13 @@
     color: #ffffff;
 }
 
+.p2{
+    text-align: center;
+    margin: 50px 0 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -177,4 +184,11 @@ a.foot_link
 {
 	text-decoration: none;
 	color: #000;
+}
+
+.footer_email{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin: 10px 0; /* Adds some spacing between lines */
 }

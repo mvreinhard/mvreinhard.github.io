@@ -80,7 +80,6 @@ nav .fa{
 
 
 
-
 #footer
 {
 	margin-top: 100px;
@@ -93,4 +92,11 @@ a.foot_link
 {
 	text-decoration: none;
 	color: #000;
+}
+
+.footer_email{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin: 10px 0; /* Adds some spacing between lines */
 }
