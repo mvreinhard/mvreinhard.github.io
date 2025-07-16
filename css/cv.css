@@ -74,6 +74,153 @@ nav .fa{
 }
 
 
+.h1_header_CV{
+  color: #000000;
+  font-size: 35px;
+  margin: 1%;
+  padding-bottom: 2px; /* Space between text and underline */
+  border-bottom: 2px solid #000000; /* Underline color and thickness */
+  display: inline-block;
+}
+
+
+.p1_header_CV{
+  color: #000000;
+  font-size: 15px;
+  padding-left: 1%;
+}
+
+.h2_education_CV{
+    color: #000000;
+    font-size: 30px;
+    margin: 1%;
+    padding-bottom: 2px; /* Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+}
+
+/*
+.h2_education_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+}
+*/
+
+
+.h2_publication_CV{
+        color: #000000;
+        font-size: 30px;
+        margin: 1%;
+        padding-bottom: 2px; /* Space between text and underline */
+        border-bottom: 2px solid #000000; /* Underline color and thickness */
+        display: inline-block;
+  }
+
+.h2_publication_first_CV{
+    color: #000000;
+    font-size: 23px;
+    margin: 1%;
+    /* padding-bottom: 2px; Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+}
+
+
+.h2_container{
+    display: block; /* Ensures each header is on its own line */
+}
+
+/*
+.h3_publication_first_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+  }
+  */
+
+  .h2_publication_co_CV{
+    color: #000000;
+    font-size: 23px;
+    margin: 1%;
+    padding-bottom: 2px; /* Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+  }
+/*
+  .h3_publication_co_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+  }
+*/
+  .h2_teaching_CV{
+    color: #000000;
+    font-size: 30px;
+    margin: 1%;
+    margin-top: 10px;
+    padding-bottom: 2px; /* Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+  }
+/*
+  .h2_teaching_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+  }
+*/
+  .h2_Seminar_CV{
+    color: #000000;
+    font-size: 30px;
+    margin: 1%;
+    margin-top: 10px;
+    padding-bottom: 2px; /* Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+  }
+/*
+  .h2_seminar_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+  }
+*/
+
+  .h2_awards_CV{
+    color: #000000;
+    font-size: 30;
+    margin: 1%;
+    margin-top: 10px;
+    padding-bottom: 2px; /* Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+  }
+
+/*
+  .h2_awards_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+    padding-bottom: 2%;
+  }
+*/
+
+  .h2_skills_CV{
+    color: #000000;
+    font-size: 30;
+    margin: 1%;
+    margin-top: 10px;
+    padding-bottom: 2px; /* Space between text and underline */
+    border-bottom: 2px solid #000000; /* Underline color and thickness */
+    display: inline-block;
+  }
+
+  .h2_skills_ul_CV{
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+  }
 
 
 
